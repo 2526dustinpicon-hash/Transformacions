@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Convertidor y PokeAPI</title>
+  <style>
+    textarea { width: 100%; height: 100px; display: block; margin-bottom: 10px; }
+    button { padding: 10px; margin: 5px 0; cursor: pointer; }
+    #pokemon-container { margin-top: 20px; text-align: center; }
+    img { width: 150px; }
+  </style>
+</head>
+<body>
+
+  <textarea id="input" placeholder="Escriu XML, JSON o el nom d'un Pokémon..."></textarea>
+  
+  <button id="btnToJson">Convertir a JSON</button>
+  <button id="btnToXML">Convertir a XML</button>
+  <button id="btnPokemon">Buscar Pokémon</button>
+
+  <textarea id="output" placeholder="Resultat aquí..."></textarea>
+
+  <div id="pokemon-container">
+    <img id="pokeImg">
+    <p id="pokeName"></p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
